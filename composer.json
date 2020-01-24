@@ -4,7 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
-        "ymcatwincities/openy": "8.2.*",
+        "ymcatwincities/openy": "8.2.999",
         "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "^2.2",
         "cweagans/composer-patches": "~1.0"
@@ -33,6 +33,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ymcatwincities/openy",
+                "version": "8.2.999",
+                "type": "drupal-profile",
+                "source": {
+                    "url": "https://github.com/fivejars/openy",
+                    "type": "github",
+                    "reference": "d814850375a5de55ec0393538d45a25fc1652268"
+                }
+            }
         },
         {
             "type": "package",
