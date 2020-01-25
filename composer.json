@@ -4,7 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
-        "ymcatwincities/openy": "8.2.*",
+        "ymcatwincities/openy": "dev-vut",
         "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "2.4.0",
         "cweagans/composer-patches": "~1.0"
@@ -37,6 +37,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "path",
+            "url": "openy"
         },
         {
             "type": "package",
