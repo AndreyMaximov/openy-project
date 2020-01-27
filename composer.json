@@ -221,7 +221,8 @@
             "docroot/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
-                "type:npm-asset"
+                "type:npm-asset",
+                "vendor:npm-asset"
             ],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
