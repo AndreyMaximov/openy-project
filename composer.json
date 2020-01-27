@@ -45,6 +45,18 @@
         {
             "type": "package",
             "package": {
+                "name": "library-vakata/jstree",
+                "version": "3.3.8",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/vakata/jstree/archive/3.3.8.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "library-jaypan/jquery_colorpicker",
                 "version": "1.0.1",
                 "type": "drupal-library",
