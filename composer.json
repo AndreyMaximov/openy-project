@@ -209,7 +209,7 @@
         ],
         "post-update-cmd": [
             "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-        ],
+        ]
     },
     "extra": {
         "installer-types": [
