@@ -222,7 +222,8 @@
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset",
-                "vendor:npm-asset"
+                "vendor:npm-asset",
+                "npm-asset/dropzone"
             ],
             "docroot/modules/contrib/{$name}": ["type:drupal-module"],
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
