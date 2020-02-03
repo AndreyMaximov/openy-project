@@ -59,7 +59,7 @@
             "type": "package",
             "package": {
                 "name": "library-jaypan/jquery_colorpicker",
-                "version": "1.0.2",
+                "version": "1.0.1",
                 "type": "drupal-library",
                 "source": {
                     "url": "https://github.com/jaypan/jquery_colorpicker",
@@ -132,7 +132,7 @@
             "type": "package",
             "package": {
                 "name": "library-smonetti/btbutton",
-                "version": "1.0.1",
+                "version": "1.0.2",
                 "type": "drupal-library",
                 "source": {
                     "url": "https://github.com/smonetti/btbutton",
