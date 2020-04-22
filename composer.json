@@ -10,7 +10,8 @@
         "drupal/core-recommended": "^8.8",
         "cweagans/composer-patches": "~1.0",
         "drupal/stage_file_proxy": "1.0-alpha3",
-        "drupal/lndr": "^1.15"
+        "drupal/lndr": "^1.15",
+        "drupal/optimizely": "~3.1"
     },
     "require-dev": {
         "ymcatwincities/openy-cibox-build": "dev-master",
