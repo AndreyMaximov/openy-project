@@ -6,7 +6,8 @@
     "require": {
         "fivejars/openy": "*",
         "composer/installers": "^1.5",
-        "drupal-composer/drupal-scaffold": "2.4.0",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-recommended": "^8.8",
         "cweagans/composer-patches": "~1.0",
         "drupal/stage_file_proxy": "1.0-alpha3"
     },
@@ -144,19 +145,6 @@
         {
             "type": "package",
             "package": {
-                "name": "grt107/grt-youtube-popup",
-                "version": "1.0.0",
-                "type": "drupal-library",
-                "source": {
-                    "url": "https://github.com/grt107/grt-youtube-popup",
-                    "type": "git",
-                    "reference": "d5cb51ae5dbe526dba7d82c646ec0f46791fa7a0"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "grt-youtube-popup",
                 "version": "1.0.0",
                 "type": "drupal-library",
@@ -178,30 +166,6 @@
                     "type": "zip"
                 }
             }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "vuejs/vue",
-                "version": "2.6.10",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/vuejs/vue/archive/v2.6.10.zip",
-                    "type": "zip"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "vuejs/vue-router",
-                "version": "3.0.6",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/vuejs/vue-router/archive/v3.0.6.zip",
-                    "type": "zip"
-                }
-            }
         }
     ],
     "scripts": {
@@ -217,6 +181,14 @@
             "bower-asset",
             "npm-asset"
         ],
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "docroot/"
+            },
+            "allowed-packages": [
+                "drupal/core"
+            ]
+        },
         "installer-paths": {
             "docroot/core": ["type:drupal-core"],
             "docroot/libraries/{$name}": [
