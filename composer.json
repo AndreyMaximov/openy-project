@@ -4,6 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+        "zaporylie/composer-drupal-optimizations":"^1.1",
         "fivejars/openy": "*",
         "composer/installers": "^1.5",
         "drupal/core-composer-scaffold": "^8.8",
